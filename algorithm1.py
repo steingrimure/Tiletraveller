@@ -9,6 +9,7 @@ endir = [3,1]
 message = "You can travel: "
 notvalid = "Not a valid direction!"
 var =0
+#Ég bætti við "var" svo að ekki prentaðist út directions ef að það kom invalid input.
 while reitur != endir:
     if reitur == [1, 1] or reitur == [2,1]:
         if var ==0: print(message + "(N)orth.")
